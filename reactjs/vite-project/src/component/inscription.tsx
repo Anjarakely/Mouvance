@@ -6,7 +6,6 @@ import photo from"../image/undraw_education_f8ru.svg";
 const choixEtuC = "college";
 const choixEtul = "lycée";
 const choixEtuU = "université";
-
 const reponse = "";
 interface Inscription {
     nom:string ,
@@ -160,7 +159,9 @@ const Inscription = () => {
                             </button>
                         </div>
                     
-
+                        <div>
+                            <input type="submit" value="Valider" />                            
+                        </div>                        
                 </form>
                 </div>
 
