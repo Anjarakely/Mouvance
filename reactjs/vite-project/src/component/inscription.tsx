@@ -5,7 +5,6 @@ import photo from"../image/undraw_education_f8ru.svg";
 const choixEtuC = "college";
 const choixEtul = "lycée";
 const choixEtuU = "université";
-
 const reponse = "";
 
 
@@ -75,7 +74,9 @@ const Inscription = () => {
                             </div>
                         </div>
                     
-
+                        <div>
+                            <input type="submit" value="Valider" />                            
+                        </div>                        
                 </form>
                 </div>
 

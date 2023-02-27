@@ -14,8 +14,6 @@ import { ClasseEtudeModule } from './classe_etude/classe_etude.module';
 import { Serie } from './serie/entities/serie.entity';
 import { Niveau } from './niveau/entities/niveau.entity';
 import { ClasseEtude } from './classe_etude/entities/classe_etude.entity';
-import { EtudiantService } from './etudiant/etudiant.service';
-import { ProfesseurService } from './professeur/professeur.service';
 
 @Module({
   imports: [
