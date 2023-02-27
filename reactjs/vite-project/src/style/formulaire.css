@@ -88,3 +88,8 @@
     outline: none;
 
 }  
+.validation  button{
+    width: 200px;
+    height: 55px;
+    margin:   30px;
+}
