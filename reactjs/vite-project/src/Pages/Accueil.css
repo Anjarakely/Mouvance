@@ -1,0 +1,84 @@
+.corps {
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    /* margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto; */
+    /* border-radius: 3%; */
+    /* opacity: 3; */
+    box-shadow: 6px 6px 6px rgb(238, 231, 231);
+  }
+
+  .deaona {
+    width: 50%;
+    height: 600px;
+    margin-top: 100px;
+  }
+  .aona {
+    width: 50%;
+    height: 600px;
+    background-image:url('../Images/sary1.gif');
+  }
+
+  
+  
+  .haute {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    /* background-repeat: no-repeat; */
+    /* background-image: url('../Images/image7.jpg'); */
+    background-color: transparent;
+
+    /* background-color: blanchedalmond; */
+    /* border-radius: 3%; */
+    
+    
+  }
+  .intro {
+    width: 400px;
+    margin-left: 10%;
+    padding: 10px;
+}
+.text1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(8, 12, 228);
+}
+
+.text-intro {
+    font-family: monospace;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(21, 5, 235);
+}
+
+button.connecter {
+  width: 250px;
+  height: 70px;
+
+  font-weight: bold;
+  background-color: rgb(6, 20, 150);
+  font-size: 25px;
+  font-family: monospace;
+
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px 1px rgb(252, 252, 252);
+}
+button.connecter:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 3px rgb(255, 255, 255);
+  transform: scale(1.02) translateX(5px);
+  transition: 0.2s linear;    
+}
