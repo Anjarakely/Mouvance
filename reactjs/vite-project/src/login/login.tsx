@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './login.css'
-function Login() {
+const login = "";
+interface Connection{
+		mail:string,
+		password: string;
+	} 
+	
+ 	function Login() {
+	const Connection = () =>{
+		const[data,useData] = useState<Connection>({
+			mail: " ",
+			password:"",
+		})
+	}
   return (
        <div>
         <div className="login-wrap">
@@ -12,11 +24,24 @@ function Login() {
 			<div className="sign-in-htm">
 				<div className="group">
 					<label htmlFor="user" className="label">Mail:</label>
-					<input id="user" type="text" className="input"/>
+					<input id="user" type="text" 
+						onChange={
+							(e:ChangeEvent<HTMLInputElement>)=>{
+								useState(e.target.value)
+							}
+						}
+					className="input"/>
 				</div>
 				<div className="group">
 					<label htmlFor="pass" className="label">mot de passe:</label>
-					<input id="pass" type="password" className="input" data-type="password"/>
+					<input id="pass" type="password" className="input" data-type="password"
+						onChange={
+							(e:ChangeEvent<HTMLInputElement>) =>{
+
+
+							}
+						}
+					/>
 				</div>
 				<div className="group">
 					<input id="check" type="checkbox" className="check" checked/>
